@@ -7,7 +7,8 @@ const musicasGlobal = {//Todas as musicas
     nomeMusica: 'Royalty',
     imagemMusica: `images/banner-musica.jpg`,
     linkMusica: 'music/royalty.mp3',
-    tempo: 221
+    tempo: 221,
+    id: 1
 }
 
 function comecarMusica() {
@@ -37,3 +38,14 @@ function progressoBarra() {
         estadobtn = 'comecar'
     }
 }
+
+/*
+const blcok = [
+    {
+        nome: 'Luiz'
+    }
+]
+console.log(blcok[0].nome)
+
+Criar uma lista com map() pegar o id da musica e adicionar no blcok[0].linkMusica
+*/
